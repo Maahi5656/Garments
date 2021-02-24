@@ -16,6 +16,51 @@
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+    <header id="main-header" class="main-nav-header">
+      <div class="main-header">
+         <div class="main-header-content">
+            <img src="assets/img/logo.png" alt="">
+         </div>
+         <div class="main-header-content">
+            <nav id="main-nav" class="navbar navbar-expand-md">
+              <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+                     <span class="navbar-toggler-icon"></span>
+                     <span class="navbar-toggler-icon"></span>
+                     <span class="navbar-toggler-icon"></span>
+              </button>
+                 <div class="navbar-nav">
+
+                   <ul class="navbar-nav">
+                     <li><a href="index.html">Home</a></li>
+                     <li><a href="about-us.html">About Us</a></li>
+                     <li><a href="portfolio.html">Portfolio</a></li>
+                     <li><a href="service.html">Service</a></li>
+                     <li><a href="blog.html">Blog</a></li>
+                     <li><a href="shop-2.html">Shop</a></li>
+                     <li><a href="contact-us.html">Contact Us</a></li>
+                   </ul>
+
+                 </div>
+
+              <div class="mobile-menu">
+                 <span onclick="openNav()">&#9776;</span>
+                 <div class="overlay" id="myNav">
+                <a href="javascript:void(0)" onclick="closeNav()" class="closebtn">&times;</a>
+                <div class="overlay-content">
+                   <a onclick="closeNav()" href="home.html">Home</a>
+                   <a onclick="closeNav()" href="about-us.html">About Us</a>
+                   <a onclick="closeNav()" href="portfolio.html">Portfolio</a>
+                   <a onclick="closeNav()" href="service.html">Service</a>
+                   <a onclick="closeNav()" href="blog.html">Blog</a>
+                   <a onclick="closeNav()" href="contact-us.html">Contact Us</a>
+                </div>
+           </div>
+              </div>
+
+            </nav>
+         </div>
+      </div>
+  </header>
 
 
   <div class="about-us-banner blog-banner">
@@ -25,8 +70,8 @@
          </div>
          <div class="about-us-banner-content">
            <ul>
-             <li><a href="">Home</a><span>|</span></li>
-             <li><a href="">Blog</a></li>
+             <li><a href="index.html">Home</a><span>|</span></li>
+             <li><a href="blog.html">Blog</a></li>
            </ul>
          </div>
      </div>
@@ -45,7 +90,7 @@
                           <div class="card-body">
                               <h4>John Doe</h4>
                               <p>Some example text some example text. John Doe is an architect and engineer</p>
-                              <a href="#" class="btn btn-primary stretched-link">Read More</a>
+                              <a href="blog-details.html" class="btn btn-primary stretched-link">Read More</a>
                           </div>
                          </div>
 
@@ -98,7 +143,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous"></script>
+ 
   <script src="assets/js/owl.carousel.min.js"></script>
   <script src="assets/js/mixitup.min.js"></script>
   <script src="assets/js/main.js"></script>
